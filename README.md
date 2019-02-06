@@ -17,7 +17,7 @@ main.tf	| Terraform configuration file.
 - Install `terraform` by following this [instructions](https://www.terraform.io/intro/getting-started/install.html).
 - Clone the repository to your local computer: `git clone git@github.com:nikcbg/tfe_null_remote_pet`.
 - Go to the cloned repo on your computer: `cd tfe_null_remote_pet`.
-- Next you need to authenticate to your TFE so you can use the remote state in TFE that was created previously in pase 1:
+- Next you need to authenticate to your TFE so you can use the remote state in TFE that was created previously in phase 1:
   -go to TFE website and click on user settings in upper right corner.
   - then click on tokens on the left pane.
   - next name your token and click generate token.
@@ -25,8 +25,8 @@ main.tf	| Terraform configuration file.
 - Next execute `export ATLAS_TOKEN=your_TFE_token_here to authenticate with TFE`.
 - Next execute `terraform init` to download the necessary plugins.
 - Next execute `terraform plan` to create execution plan and see what resources will be created.
-- Next execute `terraform apply` to apply the desired chages.
-- Next enter yes to the Enter a value prompt, the output should display the follwing:
+- Next execute `terraform apply` to apply the desired changes.
+- Next enter yes to the Enter a value prompt, the output should display the following:
 
 ```
 null_resource.hello: Creating...
