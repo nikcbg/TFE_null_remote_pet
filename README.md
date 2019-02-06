@@ -36,5 +36,5 @@ null_resource.hello (local-exec): Hello formerly-commonly-curious-oriole
 null_resource.hello: Creation complete after 0s (ID: 1888045126688840499)
 
 ```
-- If you compare the output from [phase 1]()repository and this phase 2 repository, you will see that the outputs are the same `formerly-commonly-curious-oriole` which means that both repositories are using the same state file. 
+- If you compare the output from [phase 1](https://github.com/nikcbg/tfe_random_pet) repository and this phase 2 repository, you will see that the outputs are the same `formerly-commonly-curious-oriole` which means that both repositories are using the same state file. 
  
