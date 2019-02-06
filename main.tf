@@ -1,7 +1,7 @@
 data "terraform_remote_state" "example" {
   backend = "atlas"
   config {
-    name = "tforg123/tf_random_pet"
+    name = "tforg123/tfe_random_pet"
   }  
 }  
 
